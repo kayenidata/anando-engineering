@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anando Engineering Ltd | Construction, Roads &amp; Project Management in Lagos</title>
+<meta name="description" content="Anando Engineering Ltd is a Lagos-based construction and engineering company. We build homes, commercial facilities and roads, manage projects across Nigeria, and help Nigerians abroad build at home with confidence.">
+<meta name="theme-color" content="#13304A">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anando Engineering Ltd">
+<meta property="og:description" content="Building construction, roads and project management across Nigeria. RC 7607594.">
+<meta property="og:image" content="images/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "Anando Engineering Ltd",
+  "telephone": "+2347088737387",
+  "email": "anandoengineeringservices@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "42 Oshundairo Street, Araromi Bus Stop, Dopemu",
+    "addressLocality": "Lagos",
+    "addressCountry": "NG"
+  },
+  "areaServed": "Nigeria"
+}
+</script>
+<style>
+:root{
+  --navy:#13304A; --navy-deep:#0B1F31; --ink:#1B1F24; --muted:#46555E;
+  --amber:#E3A21A; --amber-soft:#FCE8B2; --line:#D5DBE0; --mist:#EEF1F3; --white:#FFFFFF;
+  --on-navy:#D6DEE5; --on-navy-muted:#B9C6D2;
+  --display:'Archivo', 'Arial Narrow', sans-serif; --body:'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --wrap:1160px; --gutter:clamp(16px, 4vw, 40px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:76px}
+body{margin:0; background:var(--white); color:var(--ink); font-family:var(--body); font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased}
+img{max-width:100%; display:block}
+a{color:var(--navy)}
+h1,h2,h3{font-family:var(--display); line-height:1.08; margin:0; text-wrap:balance}
+p{margin:0; text-wrap:pretty}
+.wrap{max-width:var(--wrap); margin:0 auto; padding:0 var(--gutter)}
+.skip{position:absolute; left:-999px; top:8px; background:var(--white); padding:8px 12px; z-index:100}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--amber); outline-offset:2px}
+
+/* Header */
+.site-header{position:sticky; top:0; z-index:50; background:rgba(255,255,255,.96); backdrop-filter:saturate(1.2) blur(6px); border-bottom:1px solid var(--line)}
+.site-header .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:68px}
+.brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--navy)}
+.brand img{height:40px; width:auto}
+.brand small{display:block; font-family:var(--body); font-weight:500; font-size:12px; letter-spacing:.06em; color:var(--muted)}
+.brand span{font-family:var(--display); font-weight:800; font-size:19px; letter-spacing:.08em; line-height:1.1}
+.nav{display:flex; align-items:center; gap:26px}
+.nav a{text-decoration:none; font-weight:500; font-size:15px; color:var(--ink)}
+.nav a:hover{color:var(--navy)}
+.menu-btn{display:none; background:none; border:1px solid var(--line); border-radius:6px; min-width:44px; min-height:44px; color:var(--navy); cursor:pointer}
+@media (max-width:900px){
+  .nav{display:none; position:absolute; left:0; right:0; top:68px; background:var(--white); flex-direction:column; align-items:stretch; gap:0; border-bottom:1px solid var(--line); padding:8px var(--gutter) 16px}
+  .nav.open{display:flex}
+  .nav a{padding:12px 0; border-bottom:1px solid var(--mist)}
+  .nav .btn{margin-top:12px; justify-content:center}
+  .menu-btn{display:inline-flex; align-items:center; justify-content:center}
+}
+
+/* Buttons */
+.btn{display:inline-flex; align-items:center; gap:10px; min-height:48px; padding:0 22px; border-radius:6px; font-weight:600; font-size:16px; text-decoration:none; border:2px solid transparent; cursor:pointer}
+.btn svg{width:20px; height:20px; flex-shrink:0}
+.btn-amber{background:var(--amber); color:var(--navy-deep)}
+.btn-amber:hover{background:#F0B43A}
+.btn-ghost{border-color:rgba(255,255,255,.55); color:var(--white)}
+.btn-ghost:hover{border-color:var(--white); background:rgba(255,255,255,.08)}
+.btn-navy{background:var(--navy); color:var(--white)}
+.btn-navy:hover{background:var(--navy-deep)}
+.nav .btn{color:var(--navy-deep)}
+
+/* Hero */
+.hero{position:relative; background:var(--navy); color:var(--white); overflow:hidden}
+.hero-grid{display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); min-height:560px}
+.hero-copy{padding:72px var(--gutter) 64px max(var(--gutter), calc((100vw - var(--wrap))/2 + var(--gutter))); display:flex; flex-direction:column; justify-content:center; gap:22px}
+.eyebrow{font-family:var(--display); font-weight:700; font-size:13px; letter-spacing:.16em; text-transform:uppercase}
+.hero .eyebrow{color:var(--amber)}
+.hero h1{font-size:clamp(38px, 5.4vw, 64px); font-weight:800; letter-spacing:-.01em}
+.hero p{font-size:clamp(17px, 1.6vw, 20px); color:var(--on-navy); max-width:34em}
+.hero-actions{display:flex; flex-wrap:wrap; gap:12px; margin-top:6px}
+.hero-photo{position:relative; min-height:320px; border-left:10px solid var(--amber)}
+.hero-photo img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 40%}
+.rc{font-size:14px; color:var(--on-navy-muted)}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-photo{order:-1; min-height:280px; border-left:0; border-bottom:8px solid var(--amber)}
+  .hero-copy{padding:40px var(--gutter) 48px}
+}
+
+/* Stats */
+.stats{background:var(--navy-deep); color:var(--white)}
+.stats .wrap{display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:0}
+.stat{padding:28px 20px; border-left:1px solid rgba(255,255,255,.12)}
+.stat:first-child{border-left:0; padding-left:0}
+.stat strong{display:block; font-family:var(--display); font-weight:800; font-size:clamp(28px,3.4vw,40px); line-height:1.05}
+.stat span{display:block; font-size:14.5px; color:var(--on-navy); margin-top:4px}
+@media (max-width:760px){
+  .stats .wrap{grid-template-columns:repeat(2, minmax(0,1fr))}
+  .stat{padding:20px 12px; border-left:0; border-top:1px solid rgba(255,255,255,.12)}
+  .stat:first-child{padding-left:12px}
+  .stat:nth-child(-n+2){border-top:0}
+}
+
+/* Sections */
+section{padding:clamp(64px, 9vw, 104px) 0}
+.section-head{display:flex; flex-direction:column; gap:12px; margin-bottom:40px; max-width:46em}
+.section-head .bar{width:48px; height:6px; background:var(--amber)}
+.section-head .eyebrow{color:var(--muted)}
+.section-head h2{font-size:clamp(32px, 4vw, 46px); font-weight:800; color:var(--navy)}
+.section-head p{font-size:18px; color:var(--muted)}
+.alt{background:var(--mist)}
+
+/* About */
+.about-grid{display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:56px; align-items:start}
+.about-text{display:flex; flex-direction:column; gap:16px; font-size:18px}
+.vm{display:grid; gap:20px}
+.vm div{border-top:3px solid var(--navy); padding-top:14px}
+.vm h3{font-size:20px; color:var(--navy); margin-bottom:6px}
+.vm p{font-size:16px}
+.leader{display:flex; gap:16px; align-items:center; background:var(--mist); padding:18px 20px; border-radius:4px; margin-top:8px}
+.leader .tick{width:6px; align-self:stretch; background:var(--amber)}
+.leader small{display:block; font-size:12.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); font-weight:600}
+.leader strong{display:block; font-family:var(--display); font-size:20px; color:var(--navy)}
+.values{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:24px 32px; margin-top:56px}
+.values h3{font-family:var(--body); font-size:17px; font-weight:600; color:var(--ink); margin-bottom:2px}
+.values p{font-size:15.5px; color:var(--muted)}
+@media (max-width:860px){
+  .about-grid{grid-template-columns:1fr; gap:36px}
+  .values{grid-template-columns:repeat(2, minmax(0,1fr))}
+}
+@media (max-width:520px){ .values{grid-template-columns:1fr} }
+
+/* Services */
+.core{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:18px}
+.core article{background:var(--navy); color:var(--white); padding:28px 26px 30px; border-radius:4px; display:flex; flex-direction:column; gap:10px}
+.core .num{font-family:var(--display); font-weight:800; font-size:32px; color:var(--amber); line-height:1}
+.core h3{font-size:22px}
+.core p{font-size:15.5px; color:var(--on-navy)}
+.more-title{font-size:22px; color:var(--navy); margin:52px 0 20px}
+.more{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:28px 32px}
+.more article{border-top:2px solid var(--navy); padding-top:14px}
+.more h4{margin:0 0 6px; font-size:16.5px; font-weight:600}
+.more p{font-size:15.5px; color:var(--muted)}
+@media (max-width:900px){ .core, .more{grid-template-columns:repeat(2, minmax(0,1fr))} }
+@media (max-width:600px){ .core, .more{grid-template-columns:1fr} }
+
+/* Projects */
+.proj-group + .proj-group{margin-top:56px}
+.proj-group h3{font-size:24px; color:var(--navy); margin-bottom:18px; display:flex; align-items:center; gap:12px}
+.proj-group h3::before{content:""; width:14px; height:14px; background:var(--amber); flex-shrink:0}
+.proj-list{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:16px}
+.proj{background:var(--white); border:1px solid var(--line); border-radius:4px; padding:20px 22px; display:flex; flex-direction:column; gap:8px}
+.proj-top{display:flex; justify-content:space-between; gap:12px; align-items:baseline; font-size:14px; color:var(--muted)}
+.badge{display:inline-block; font-size:12.5px; font-weight:600; letter-spacing:.04em; padding:2px 8px; border-radius:3px; background:#E3EEE7; color:#1E5A3A}
+.proj h4{margin:0; font-size:18px; line-height:1.35; color:var(--ink)}
+.proj p{font-size:15px; color:var(--muted)}
+.proj .client{font-size:14.5px; color:var(--ink)}
+.proj .client b{font-weight:600}
+.sponsors{margin-top:40px; background:var(--navy); color:var(--white); padding:22px 26px; border-radius:4px; display:flex; flex-wrap:wrap; gap:8px 24px; align-items:center; border-left:8px solid var(--amber)}
+.sponsors small{font-size:12.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--on-navy-muted); font-weight:600}
+.sponsors strong{font-family:var(--display); font-size:19px}
+@media (max-width:760px){ .proj-list{grid-template-columns:1fr} }
+
+/* Diaspora */
+.dias{display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); gap:56px; align-items:center}
+.dias img{width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:4px}
+.checks{list-style:none; margin:24px 0 0; padding:0; display:grid; gap:14px}
+.checks li{display:flex; gap:14px; align-items:flex-start; font-size:17px}
+.checks li::before{content:""; width:10px; height:10px; margin-top:9px; background:var(--amber); flex-shrink:0}
+.checks b{font-weight:600}
+.two-col{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:40px; margin-top:72px}
+.two-col div{border-top:3px solid var(--navy); padding-top:16px}
+.two-col h3{font-size:22px; color:var(--navy); margin-bottom:12px}
+.two-col ul{margin:0; padding-left:20px; display:grid; gap:6px; font-size:16.5px}
+@media (max-width:860px){
+  .dias{grid-template-columns:1fr; gap:32px}
+  .dias img{aspect-ratio:16/11}
+  .two-col{grid-template-columns:1fr; gap:32px; margin-top:52px}
+}
+
+/* Gallery */
+.gallery{display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); grid-auto-rows:220px; gap:12px; grid-template-areas:"a b b c" "a d e c" "f g g h"}
+.gallery figure{margin:0; position:relative; overflow:hidden; border-radius:4px; background:var(--mist)}
+.gallery img{width:100%; height:100%; object-fit:cover; transition:transform .4s ease}
+.gallery figure:hover img{transform:scale(1.03)}
+@media (max-width:860px){ .gallery{grid-template-columns:repeat(2, minmax(0,1fr)); grid-auto-rows:170px; grid-template-areas:"a d" "a e" "b b" "c f" "c h" "g g"} }
+@media (prefers-reduced-motion:reduce){ .gallery img{transition:none} html{scroll-behavior:auto} }
+
+/* Contact */
+.contact{background:var(--navy); color:var(--white)}
+.contact .section-head h2{color:var(--white)}
+.contact .section-head p{color:var(--on-navy)}
+.contact .section-head .eyebrow{color:var(--amber)}
+.contact-grid{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:48px; align-items:start}
+.contact-list{display:grid; gap:26px}
+.contact-list small{display:block; font-size:12.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--on-navy-muted); font-weight:600; margin-bottom:2px}
+.contact-list a, .contact-list span{color:var(--white); font-size:19px; text-decoration:none; overflow-wrap:anywhere}
+.contact-list a:hover{color:var(--amber-soft); text-decoration:underline}
+.contact-actions{display:flex; flex-direction:column; gap:12px; background:rgba(255,255,255,.06); padding:28px; border-radius:4px}
+.contact-actions .btn{justify-content:center}
+.contact-actions p{font-size:15px; color:var(--on-navy)}
+.map{margin-top:8px}
+.map a{color:var(--amber-soft)}
+@media (max-width:860px){ .contact-grid{grid-template-columns:1fr} }
+
+/* Footer */
+.site-footer{background:var(--navy-deep); color:var(--on-navy-muted); font-size:14px; padding:28px 0}
+.site-footer .wrap{display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px}
+
+/* Floating WhatsApp */
+.wa-float{position:fixed; right:18px; bottom:18px; z-index:60; display:inline-flex; align-items:center; gap:10px; background:#1E8E4E; color:var(--white); text-decoration:none; font-weight:600; padding:0 20px 0 16px; min-height:54px; border-radius:30px; box-shadow:0 6px 18px rgba(0,0,0,.22)}
+.wa-float:hover{background:#17773F}
+.wa-float svg{width:24px; height:24px}
+@media (max-width:520px){ .wa-float span{display:none} .wa-float{padding:0; width:56px; justify-content:center} }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Anando Engineering Ltd, back to top">
+      <img src="images/logo-mark.png" alt="" width="72" height="40">
+      <span>ANANDO <small>Engineering Ltd</small></span>
+    </a>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#diaspora">Building from abroad</a>
+      <a href="#gallery">Gallery</a>
+      <a class="btn btn-amber" href="#contact">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div id="top" class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow">Anando Engineering Ltd</div>
+        <h1>We build homes, roads and the projects behind them.</h1>
+        <p>A Lagos-based construction and engineering company delivering buildings, roads and managed projects across Nigeria, with clear reporting at every stage.</p>
+        <div class="hero-actions">
+          <a class="btn btn-amber" href="https://wa.me/2347088737387?text=Hello%20Anando%20Engineering%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#projects">See our projects</a>
+        </div>
+        <div class="rc">Registered in Nigeria · RC 7607594</div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/flats-pink.jpg" alt="Completed four-storey block of flats built by Anando Engineering" width="1200" height="1200">
+      </div>
+    </div>
+  </div>
+
+  <div class="stats" aria-label="At a glance">
+    <div class="wrap">
+      <div class="stat"><strong>12</strong><span>completed projects on record</span></div>
+      <div class="stat"><strong>33 km</strong><span>of road built or rehabilitated</span></div>
+      <div class="stat"><strong>5 + FCT</strong><span>states: Lagos, Ogun, Ondo, Kwara, Abuja</span></div>
+      <div class="stat"><strong>1 team</strong><span>from foundations to security and solar</span></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="bar"></div>
+        <div class="eyebrow">About us</div>
+        <h2>Who we are</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Anando Engineering Limited is a Lagos-based engineering and construction company. We build homes, commercial facilities and roads, and we manage projects for private developers, corporate clients, institutions and government agencies across Nigeria.</p>
+          <p>Alongside construction we install CCTV, security and solar systems, so a client can give one team the whole job, from the foundations to the cameras on the gate, and get clear reporting at every stage.</p>
+          <div class="leader">
+            <div class="tick"></div>
+            <div>
+              <small>Leadership</small>
+              <strong>Engr. Adeyemi Adesewo</strong>
+              <span>Chief Executive Officer</span>
+            </div>
+          </div>
+        </div>
+        <div class="vm">
+          <div>
+            <h3>Our vision</h3>
+            <p>To become a leading engineering and infrastructure company in Africa, delivering durable, technology-driven projects that transform communities and businesses.</p>
+          </div>
+          <div>
+            <h3>Our mission</h3>
+            <p>To deliver high-quality construction, engineering and smart technology solutions through professional excellence, strict quality and safety standards, and client-focused delivery.</p>
+          </div>
+        </div>
+      </div>
+      <div class="values">
+        <div><h3>Integrity</h3><p>We keep our promises and report honestly.</p></div>
+        <div><h3>Excellence</h3><p>High standards at every stage of execution.</p></div>
+        <div><h3>Innovation</h3><p>Modern technology built into our engineering.</p></div>
+        <div><h3>Quality</h3><p>Durable work that meets every regulation.</p></div>
+        <div><h3>Safety first</h3><p>Our people, sites and environment come first.</p></div>
+        <div><h3>Client focus</h3><p>Your vision is our priority.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="bar"></div>
+        <div class="eyebrow">Services</div>
+        <h2>What we do</h2>
+      </div>
+      <div class="core">
+        <article>
+          <div class="num">01</div>
+          <h3>Building construction</h3>
+          <p>Residential and commercial buildings from foundation to finish, including interiors, permits and approvals. Duplexes, terraces, blocks of flats, semi-detached homes and mini estates.</p>
+        </article>
+        <article>
+          <div class="num">02</div>
+          <h3>Roads and civil works</h3>
+          <p>Road construction and rehabilitation, drainage, earthworks, site development and paved haulage yards and terminals.</p>
+        </article>
+        <article>
+          <div class="num">03</div>
+          <h3>Project management and consultancy</h3>
+          <p>Planning, site supervision, cost control, budgeting and progress reporting for developers, corporate clients, institutions and public-sector projects.</p>
+        </article>
+      </div>
+      <h3 class="more-title">Also from Anando</h3>
+      <div class="more">
+        <article><h4>Renovation and maintenance</h4><p>Remodelling, structural repairs, waterproofing of leaking decks, treatment of damp and efflorescence, and maintenance of estates and commercial buildings.</p></article>
+        <article><h4>Telecoms and utility civil works</h4><p>Surveying, trenching and fibre cable laying, manholes and handholes, street lighting bases, hydrant pipework, permits and utility coordination.</p></article>
+        <article><h4>Security and smart systems</h4><p>CCTV supply and installation (digital, IP, analogue and solar) with PTZ cameras, access control, perimeter security and home and office automation.</p></article>
+        <article><h4>Solar and power</h4><p>Solar panel supply and installation and hybrid power systems for homes, offices and estates.</p></article>
+        <article><h4>Construction materials</h4><p>Granite, sand, cement, iron rods, aluminium and glass balustrades, delivered on schedule through trusted distributors.</p></article>
+        <article><h4>Facilities and marine maintenance</h4><p>Office and estate facility management, ship maintenance and dry-dock coordination.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="bar"></div>
+        <div class="eyebrow">Track record</div>
+        <h2>Selected projects</h2>
+        <p>Roads, housing and managed projects for developers, corporate clients and government-backed programmes.</p>
+      </div>
+
+      <div class="proj-group">
+        <h3>Construction and roads</h3>
+        <ul class="proj-list">
+          <li class="proj">
+            <div class="proj-top"><span>2021 · Lagos State</span><span class="badge">Completed</span></div>
+            <h4>Two sets of six 4-bedroom duplexes</h4>
+            <p>Meridian Park, Awoyaya, for Lekki Gardens.</p>
+            <div class="client"><b>Client:</b> Greenbuilders Construction Company, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2021 · Lagos State</span><span class="badge">Completed</span></div>
+            <h4>3-acre haulage terminal</h4>
+            <p>Amuwo Odofin, Lagos.</p>
+            <div class="client"><b>Client:</b> IKCON Fortune Ltd, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2019–2020 · Ondo State</span><span class="badge">Completed</span></div>
+            <h4>9.376 km road, Molege Junction to Ute Township</h4>
+            <p>Road construction in Ondo State.</p>
+            <div class="client"><b>Client:</b> Rembam Engineering Ltd and Ondo State Government</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2020–2021 · Lagos State</span><span class="badge">Completed</span></div>
+            <h4>Three blocks of flats</h4>
+            <p>Agege, Lagos.</p>
+            <div class="client"><b>Client:</b> Nouveau Projects Ltd, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2018–2019 · Ogun State</span><span class="badge">Completed</span></div>
+            <h4>24 km road, Ilaro to Owode</h4>
+            <p>Road construction and rehabilitation.</p>
+            <div class="client"><b>Client:</b> Rajcom Construction Company, Ogun</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>Lagos State</span></div>
+            <h4>Homes and mini estates</h4>
+            <p>Semi-detached homes and mini estates at Yaba and Omole Phase 2.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="proj-group">
+        <h3>Project management and consultancy</h3>
+        <ul class="proj-list">
+          <li class="proj">
+            <div class="proj-top"><span>2018–2021 · Kwara State</span><span class="badge">Completed</span></div>
+            <h4>10-hectare development, Shao Integrated Aquaculture Farm</h4>
+            <p>Project management for Patec Foods Ltd, Shao. CBN-sponsored.</p>
+            <div class="client"><b>Client:</b> Patec Group, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2008–2009 · Lagos State</span><span class="badge">Completed</span></div>
+            <h4>Power transmission and supply improvement</h4>
+            <p>Project management across six local government areas in Lagos. World Bank-sponsored.</p>
+            <div class="client"><b>Client:</b> Stag Engineering Nigeria Ltd, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2018 · Lagos State</span><span class="badge">Completed</span></div>
+            <h4>Consultancy, facility management and training</h4>
+            <p>₦2 billion Divine Mercy Cathedral superstructure, Awoyaya.</p>
+            <div class="client"><b>Client:</b> CCC Divine Mercy Cathedral, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2017–2018 · Abuja</span><span class="badge">Completed</span></div>
+            <h4>Landscaping, horticulture, road and drainage consultancy</h4>
+            <p>100-hectare site, Dei-Dei, Abuja.</p>
+            <div class="client"><b>Client:</b> Western Garden, Abuja</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2015–2016 · Lagos State</span></div>
+            <h4>Industrial machinery, instrumentation and SCADA</h4>
+            <p>Project management for installation and automation of a production line.</p>
+            <div class="client"><b>Client:</b> Metcem Ltd, Lagos</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2021 · Kwara State</span><span class="badge">Completed</span></div>
+            <h4>Consultancy for a luxury guest house</h4>
+            <p>Oyinkan's Court, Kwara Agro-Mall Estate, Ilorin.</p>
+            <div class="client"><b>Client:</b> Oyinkan's Court, Kwara</div>
+          </li>
+          <li class="proj">
+            <div class="proj-top"><span>2016 · Abuja</span><span class="badge">Completed</span></div>
+            <h4>Project management, annual conference</h4>
+            <p>Conference, dinner and book and magazine launch for the National Environmental Society.</p>
+            <div class="client"><b>Client:</b> NES Abuja Chapter</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sponsors">
+        <small>Projects funded or sponsored by</small>
+        <strong>The World Bank · Central Bank of Nigeria · Ondo State Government</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="diaspora" class="alt">
+    <div class="wrap">
+      <div class="dias">
+        <img src="images/house-entrance.jpg" alt="Finished home entrance built by Anando" loading="lazy" width="1200" height="900">
+        <div>
+          <div class="section-head" style="margin-bottom:0">
+            <div class="bar"></div>
+            <div class="eyebrow">For clients abroad</div>
+            <h2>Build at home with peace of mind</h2>
+            <p>We manage the whole build for Nigerians living abroad, so you never need to be on site to know exactly where your money and your project stand.</p>
+          </div>
+          <ul class="checks">
+            <li><span><b>Full site development</b>, from land and approvals to handover</span></li>
+            <li><span><b>Milestone-based payments</b>, so instalments are released as each stage is completed</span></li>
+            <li><span><b>Daily, weekly or monthly updates</b> with photos and video</span></li>
+            <li><span><b>Remote monitoring</b> and a direct line to your project manager</span></li>
+            <li><span><b>Clear accounts</b> for every naira spent</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="two-col">
+        <div>
+          <h3>Health, safety and environment</h3>
+          <ul>
+            <li>Safe working conditions for everyone on site</li>
+            <li>Compliance with regulatory standards</li>
+            <li>Risk assessment before and during work</li>
+            <li>Proper handling of materials and equipment</li>
+            <li>Continuous safety training and supervision</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Why clients choose us</h3>
+          <ul>
+            <li>One team to design, build and maintain</li>
+            <li>Structured project management and reporting</li>
+            <li>A track record in roads and buildings</li>
+            <li>Construction, security and solar under one roof</li>
+            <li>Trusted suppliers and a skilled workforce</li>
+            <li>Pricing tailored to your budget</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="bar"></div>
+        <div class="eyebrow">Gallery</div>
+        <h2>Our work on site</h2>
+        <p>Photographs from Anando building and solar projects, from scaffolding to handover.</p>
+      </div>
+      <div class="gallery">
+        <figure style="grid-area:a"><img src="images/flats-handover.jpg" alt="Completed block of flats at handover" loading="lazy"></figure>
+        <figure style="grid-area:b"><img src="images/site-scaffold-3.jpg" alt="Two-storey building at finishing stage" loading="lazy"></figure>
+        <figure style="grid-area:c"><img src="images/terrace-angle.jpg" alt="Terrace block exterior" loading="lazy"></figure>
+        <figure style="grid-area:d"><img src="images/site-scaffold-2.jpg" alt="Duplex under construction with scaffolding" loading="lazy"></figure>
+        <figure style="grid-area:e"><img src="images/house-gate.jpg" alt="Completed home with gate and fence" loading="lazy"></figure>
+        <figure style="grid-area:f"><img src="images/solar-wall.jpg" alt="Wall-mounted solar panels on a residential building" loading="lazy"></figure>
+        <figure style="grid-area:g"><img src="images/solar-ground.jpg" alt="Ground-mounted solar array" loading="lazy"></figure>
+        <figure style="grid-area:h"><img src="images/site-scaffold-1.jpg" alt="Duplexes under construction" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="bar"></div>
+        <div class="eyebrow">Contact</div>
+        <h2>Let's build it together.</h2>
+        <p>Tell us about your project and we will arrange a site visit and a clear, itemised quotation.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-list">
+          <div><small>Contact</small><span>Engr. Adeyemi Adesewo, CEO</span></div>
+          <div><small>Phone</small><a href="tel:+2347088737387">+234 708 873 7387</a></div>
+          <div><small>Email</small><a href="mailto:anandoengineeringservices@gmail.com">anandoengineeringservices@gmail.com</a></div>
+          <div>
+            <small>Office</small>
+            <span>42 Oshundairo Street, Araromi Bus Stop, Dopemu, Lagos, Nigeria</span>
+            <div class="map"><a href="https://www.google.com/maps/search/?api=1&query=42+Oshundairo+Street+Dopemu+Lagos" target="_blank" rel="noopener">Open in Google Maps</a></div>
+          </div>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-amber" href="https://wa.me/2347088737387?text=Hello%20Anando%20Engineering%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="tel:+2347088737387">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+            Call us
+          </a>
+          <a class="btn btn-ghost" id="pdf-link" href="anando-company-profile.pdf" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Download company profile (PDF)
+          </a>
+          <p>We usually reply on WhatsApp within the working day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>© <span id="yr">2026</span> Anando Engineering Ltd · RC 7607594</div>
+    <div>Lagos, Nigeria</div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/2347088737387?text=Hello%20Anando%20Engineering%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" aria-label="Chat with Anando Engineering on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+  <span>WhatsApp us</span>
+</a>
+
+<script>
+(function(){
+  var btn = document.querySelector('.menu-btn'), nav = document.getElementById('nav');
+  btn.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  nav.addEventListener('click', function(e){
+    if (e.target.tagName === 'A') { nav.classList.remove('open'); btn.setAttribute('aria-expanded','false'); btn.setAttribute('aria-label','Open menu'); }
+  });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  // Hide the PDF button until the PDF file has been added to the site folder
+  var pdf = document.getElementById('pdf-link');
+  fetch(pdf.getAttribute('href'), {method:'HEAD'}).then(function(r){ if(!r.ok) pdf.style.display='none'; }).catch(function(){ pdf.style.display='none'; });
+})();
+</script>
+</body>
+</html>
